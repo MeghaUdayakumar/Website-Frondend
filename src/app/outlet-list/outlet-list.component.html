@@ -1,0 +1,29 @@
+<p>outlet-list works!</p>
+<div class="container">
+               
+    <table class="table">
+      <thead>
+        <tr>
+          <th>outletName</th>
+          <th>streetName</th>
+          <th>landmark</th>
+          <th>no_of_AvaiFoodItems</th>
+          <th>req_Volunteer</th>
+          <th>orderDate</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let outlet of  outlets">
+          <td>{{outlet.outletName}}</td>
+          <td>{{outlet.streetName}}</td>
+          <td>{{outlet.landmark}}</td>
+          <td>{{outlet.no_of_AvaiFoodItems}}</td>
+          <td>{{outlet.req_Volunteer}}</td>
+          <td>{{outlet.orderDate}}</td>
+
+        </tr>
+       
+      </tbody>
+    </table>
+  </div>

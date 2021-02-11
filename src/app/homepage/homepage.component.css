@@ -1,0 +1,58 @@
+figure > figcaption {
+    position: absolute;
+    bottom: 0;
+    
+    width: 100%;
+  }
+  
+   figure > figcaption > h3 {
+    color: rgb(79, 185, 168);
+   font-family: monospace;
+    font-size: 20px;
+    line-height: normal ;
+  }
+  .grid {
+    display: grid;
+    padding-left: 150px;
+    padding-right: 150px ;
+  
+  }
+  
+  .item {
+    padding: 3rem;
+    background-image: url('https://ttnnews.in/wp-content/uploads/2020/01/Indian-Online-Food-Delivery-Industry-To-Hit-8-Billion-Dollar-Mark-By.jpg');
+    
+  }
+  
+  h3 {
+    
+    font-size: 55px;
+   
+  }
+.container1 {
+    
+    color: white;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 140px);
+    }
+.container1 > div
+ {
+       color: white;
+        display: flex;
+        
+        font-size: 48px;
+        font-family: arial,helvetica,sans-serif;
+        }
+        
+.footer{
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+
+
+}
+.footer1{
+    align-items: left;
+}
