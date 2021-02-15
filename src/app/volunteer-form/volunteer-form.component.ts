@@ -1,6 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import {NgForm} from '@angular/forms';
 
+export class VolunteerModel
+{
+ 
+
+
+}
 @Component({
   selector: 'app-volunteer-form',
   templateUrl: './volunteer-form.component.html',
