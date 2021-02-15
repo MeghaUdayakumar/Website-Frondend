@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 /**
+ * Routing to Navigation Component of Outlet-list
  * On initial loading this Outlet routing page it will display the header which contain the Main Menu and Moto as 
  in the Homepage.
  * Once the page loaded ther User can get the list of outlets that are displayed in the API which is updated by the Admin

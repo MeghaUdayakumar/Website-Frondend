@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from "@angular/common";
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { VolunteerService } from './volunteer.service';
 
 
 
@@ -29,7 +30,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     
     
   ],
-  providers: [],
+  providers: [VolunteerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
